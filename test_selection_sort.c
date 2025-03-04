@@ -2,9 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
-// Function prototype
-void selectionSort(int arr[], int n);
+#include "selection_sort.h"  // Include the header file
 
 START_TEST(test_selection_sort_basic) {
     int arr[] = {64, 25, 12, 22, 11};
